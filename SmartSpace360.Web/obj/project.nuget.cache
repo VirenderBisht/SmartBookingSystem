@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nO8kaVWxa7X7jAo5nfinxk23YETMA5B4WfQeSKis78MzlctyzMk+BuggYHuu9OIpGEnsIRuN1iGfF3PE4fVDZA==",
+  "dgSpecHash": "Br6Xc6mBWehdeJZ/gd8W0EuPkdEFgoJxam1KLvvxqIVXCiiHok907tb01KZODGB5x0tluC0R0UKfwVHS3iaFGQ==",
   "success": true,
-  "projectFilePath": "C:\\Core\\SmartSpace360.Web\\SmartSpace360.Web\\SmartSpace360.Web.csproj",
+  "projectFilePath": "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.Web\\SmartSpace360.Web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

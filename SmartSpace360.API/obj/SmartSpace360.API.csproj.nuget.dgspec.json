@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.Web\\SmartSpace360.Web.csproj": {}
+    "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.API\\SmartSpace360.API.csproj": {}
   },
   "projects": {
-    "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.Web\\SmartSpace360.Web.csproj": {
+    "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.API\\SmartSpace360.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.Web\\SmartSpace360.Web.csproj",
-        "projectName": "SmartSpace360.Web",
-        "projectPath": "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.Web\\SmartSpace360.Web.csproj",
+        "projectUniqueName": "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.API\\SmartSpace360.API.csproj",
+        "projectName": "SmartSpace360.API",
+        "projectPath": "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.API\\SmartSpace360.API.csproj",
         "packagesPath": "C:\\Users\\bishtv\\.nuget\\packages\\",
-        "outputPath": "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.Web\\obj\\",
+        "outputPath": "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bishtv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

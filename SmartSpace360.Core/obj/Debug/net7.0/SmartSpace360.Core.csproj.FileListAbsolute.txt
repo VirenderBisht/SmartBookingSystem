@@ -1,0 +1,11 @@
+C:\SmartBookingSystem\SmartBookingSystem\SmartSpace360.Core\obj\Debug\net7.0\SmartSpace360.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\SmartBookingSystem\SmartBookingSystem\SmartSpace360.Core\obj\Debug\net7.0\SmartSpace360.Core.AssemblyInfoInputs.cache
+C:\SmartBookingSystem\SmartBookingSystem\SmartSpace360.Core\obj\Debug\net7.0\SmartSpace360.Core.AssemblyInfo.cs
+C:\SmartBookingSystem\SmartBookingSystem\SmartSpace360.Core\obj\Debug\net7.0\SmartSpace360.Core.csproj.CoreCompileInputs.cache
+C:\SmartBookingSystem\SmartBookingSystem\SmartSpace360.Core\bin\Debug\net7.0\SmartSpace360.Core.deps.json
+C:\SmartBookingSystem\SmartBookingSystem\SmartSpace360.Core\bin\Debug\net7.0\SmartSpace360.Core.dll
+C:\SmartBookingSystem\SmartBookingSystem\SmartSpace360.Core\bin\Debug\net7.0\SmartSpace360.Core.pdb
+C:\SmartBookingSystem\SmartBookingSystem\SmartSpace360.Core\obj\Debug\net7.0\SmartSpace360.Core.dll
+C:\SmartBookingSystem\SmartBookingSystem\SmartSpace360.Core\obj\Debug\net7.0\refint\SmartSpace360.Core.dll
+C:\SmartBookingSystem\SmartBookingSystem\SmartSpace360.Core\obj\Debug\net7.0\SmartSpace360.Core.pdb
+C:\SmartBookingSystem\SmartBookingSystem\SmartSpace360.Core\obj\Debug\net7.0\ref\SmartSpace360.Core.dll
