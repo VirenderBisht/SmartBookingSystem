@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.Web\\SmartSpace360.Web.csproj",
-      "projectName": "SmartSpace360.Web",
-      "projectPath": "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.Web\\SmartSpace360.Web.csproj",
+      "projectUniqueName": "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.Core\\SmartSpace360.Core.csproj",
+      "projectName": "SmartSpace360.Core",
+      "projectPath": "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.Core\\SmartSpace360.Core.csproj",
       "packagesPath": "C:\\Users\\bishtv\\.nuget\\packages\\",
-      "outputPath": "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.Web\\obj\\",
+      "outputPath": "C:\\SmartBookingSystem\\SmartBookingSystem\\SmartSpace360.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bishtv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,9 +57,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
