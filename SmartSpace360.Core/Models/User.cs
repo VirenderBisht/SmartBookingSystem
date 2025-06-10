@@ -20,6 +20,9 @@ namespace SmartSpace360.Core.Models
         [Phone]
         public string? PhoneNumber { get; set; }
 
+        [Required]
+        public string PasswordHash { get; set; } // Hashed password
+
         public int RoleId { get; set; }
         public Role? Role { get; set; }
 
