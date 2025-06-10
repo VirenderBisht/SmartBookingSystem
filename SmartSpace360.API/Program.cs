@@ -1,13 +1,21 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.EntityFrameworkCore;
+using SmartSpace360.Core.Interfaces;
+using SmartSpace360.Infrastructure.Data;
+using SmartSpace360.Infrastructure.Repositories;
+using System;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllers();
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Configure the HTTP request pipeline.
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+var app = builder.Build();// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
